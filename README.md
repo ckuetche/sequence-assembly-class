@@ -16,4 +16,4 @@ Command line usage: ./find_euler_nodes.awk [graph] #ideally a .dot file
 Uses a sliding window approach on an input string and desired kmer length to generate k-1mers. After, organizes substrings into prefixes and suffixes for parent string reconstruction. 
 Command line usage: ./debruijnedge.bash [string] [k] #k must be a numer
 ## Usage Instructions
-Given an input string, run find_kmers_bash first. Next, create a graph with GraphViz software on the command line, and run find_euler_nodes.awk to identify your start and end sequence. Otherwise,
+Given an input string, run find_kmers_bash first. Next, create a graph with GraphViz software on the command line, and run find_euler_nodes.awk to identify your start and end sequence. Otherwise, run the de-bruijn edge generator itself to find kmers and their possible organization.
